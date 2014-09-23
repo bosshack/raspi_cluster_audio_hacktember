@@ -25,6 +25,8 @@ defmodule HomeCluster.Mixfile do
   #
   # Type `mix help deps` for more examples and options
   defp deps do
-    []
+    [
+      {:net_basic, github: "fhunleth/net_basic.ex"}
+    ]
   end
 end
